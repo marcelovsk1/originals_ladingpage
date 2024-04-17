@@ -1,0 +1,482 @@
+.content-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: black;
+  padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.slogans {
+  position: absolute;
+  top: 50%;       /* Move para o meio da altura do content-container */
+  right: 0;       /* Alinha à extrema direita do content-container */
+  transform: translateY(-50%);  /* Centraliza verticalmente */
+  padding: 50px;  /* Adicione padding conforme necessário */
+}
+
+.slogan-1 {
+  position: relative;
+  right: 3.5%;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.5mm;
+  color: $color-primary;
+}
+
+.satellite {
+  color: $color-primary-2;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+p {
+  position: relative;
+  left: 66%;
+  color: $color-primary-2;
+}
+
+.buy-now-btn {
+  position: relative;
+  left: 75%;
+  border-radius: none;
+  border: none;
+  padding: 14px 86px;
+  color: $color-primary-2;
+  background-color: $color-primary;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buy-now-btn:hover {
+  @include hover-styles;
+}
+
+.harold {
+  position: relative;
+  right: 10%;
+  height: 23%;
+  width: 43%;
+}
+
+.harold img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+  max-height: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+}
+
+/* SECONDARY CONTAINER */
+.secondary-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: $color-primary-2;
+  padding: 70px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.title-shoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-shoes h1 {
+  font-size: 28px;
+  color: $color-primary-3;
+}
+
+.shoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.h1-shoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoes-pic {
+  display: flex;
+  flex-direction: column; /* Configuração para colocar os itens verticalmente */
+  align-items: center;
+  text-decoration: none; /* Removendo sublinhado do link */
+  color: $color-primary-3;
+  height: 80%;
+  width: 80%;
+}
+
+.shoespic {
+  height: 80%;
+  width: 80%;
+}
+
+.shoespic:hover {
+  width: 90%;  /* Adjust the width as needed */
+  transition: width 0.5s ease;  /* Add a smooth transition effect */
+}
+
+/* GAZELLE CONTAINER */
+.container-gazelle {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: rgb(186, 51, 51);
+  padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.image-container-gazelle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gazelle {
+  height: 50%;
+  width: 50%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.gazelle-h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: $color-primary-2;
+}
+
+.gazelle-p1 {
+  font-size: 14px;
+  margin: 10px 0px; /* Ajuste conforme necessário */
+  line-height: 1.5; /* Ajuste conforme necessário */
+  color: $color-primary-2;
+}
+
+.gazelle-text {
+  position: relative;
+  left: 15%;
+}
+
+.gazelle-btn {
+  position: relative;
+  left: -1%;
+  border-radius: none;
+  border: none;
+  padding: 14px 86px;
+  color: $color-primary-2;
+  background-color: $color-primary;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gazelle-btn:hover {
+  @include hover-styles;
+}
+
+/* SPEZIAL CONTAINER */
+.spezial-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: rgb(28, 160, 114);
+  padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.image-container-spezial {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.spezial {
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  position: relative;
+  left: 19%;
+}
+
+.spezial-h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: $color-primary-2;
+}
+
+.spezial-p1 {
+  font-weight: 500;
+  color: $color-primary-2;
+  padding-right: 20px;
+}
+
+.spezial-text {
+  position: relative;
+  right: 15%;
+}
+
+.spezial-btn {
+  position: relative;
+  right: 1%;
+  border-radius: none;
+  border: none;
+  padding: 14px 86px;
+  color: $color-primary-2;
+  background-color: $color-primary;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.spezial-btn:hover {
+  @include hover-styles;
+}
+
+/* SAMBA CONTAINER */
+.samba-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: rgb(241, 240, 177);
+  padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.image-container-samba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.samba {
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+}
+
+.samba-h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: $color-primary-3;
+}
+
+.samba-p1 {
+  font-weight: 500;
+  color: $color-primary-3;
+  padding-right: 50px;
+  line-break: auto;
+}
+
+.samba-text {
+  position: relative;
+  left: 14%;
+}
+
+.samba-btn {
+  position: relative;
+  right: 0%;
+  border-radius: none;
+  border: none;
+  padding: 14px 86px;
+  color: $color-primary-2;
+  background-color: $color-primary;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.samba-btn:hover {
+  @include hover-styles;
+}
+
+/* CAMPUS CONTAINER */
+.campus-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(160, 174, 200); */
+  background-color: rgb(94, 152, 193);
+  padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
+}
+
+.image-container-campus {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.campus {
+  width: 45%;
+  height: 45%;
+  padding: 20px;
+  position: relative;
+  left: 14%;
+}
+
+.campus-h1 {
+  position: relative;
+  right: 2%;
+  font-weight: 800;
+  font-size: 40px;
+  color: $color-primary-2;
+}
+
+.campus-p1 {
+  position: relative;
+  right: 2%;
+  font-weight: 500;
+  color: $color-primary-2;
+  padding-right: 20px;
+}
+
+.campus-text {
+  position: relative;
+  right: 23%;
+}
+
+.campus-btn {
+  position: relative;
+  right: 2%;
+  border-radius: none;
+  border: none;
+  padding: 14px 86px;
+  color: $color-primary;
+  background-color: $color-primary-2;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.campus-btn:hover {
+  @include hover-styles-1;
+}
+
+/* MINI PRODUCT GRID */
+.galery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120%;
+  height: 120%;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px 0; */
+  background-color: $color-primary-2;
+  padding: 50px;
+}
+
+.content {
+  width: 20%;
+  margin: 35px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 50px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: .4s;
+  background: white;
+}
+
+.content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+  0 3px 6px rgba(0, 0, 0, 0.16);
+  transform: translate(0px, -8px);
+}
+
+.grid-pic {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+h3 {
+  text-align: start;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 20px;
+  color: $color-primary;
+}
+
+p {
+  text-align: start;
+  margin-left: 20px;
+  padding-top: 0 8px;
+  color: $color-primary-3;
+}
+
+.price {
+  text-align: start;
+  margin-left: 20px;
+  padding-top: 0 8px;
+  color: $color-primary-3;
+}
+
+.title-grid {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: row;
+  color: $color-primary-3;
+}
+
+.buy-1,
+.buy-2,
+.buy-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  border: none;
+  padding: 14px 36px;
+  margin: 20px;
+  color: $color-primary-2;
+  background-color: $color-primary;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buy-1:hover,
+.buy-2:hover,
+.buy-3:hover {
+  @include hover-styles;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} /* Add a closing curly brace here */
