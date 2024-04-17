@@ -6,7 +6,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  /* background-color: rgb(160, 174, 200); */
   background-color: black;
   padding: 20px; /* Adicione o padding conforme necessário para espaçamento */
 }
@@ -106,6 +105,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: blueviolet;
 }
 
 .shoes-pic {
@@ -126,6 +126,11 @@ p {
 .shoespic:hover {
   width: 90%;  /* Adjust the width as needed */
   transition: width 0.5s ease;  /* Add a smooth transition effect */
+}
+
+.p-shoes {
+  color: black;
+  margin-right: 200px;
 }
 
 /* GAZELLE CONTAINER */

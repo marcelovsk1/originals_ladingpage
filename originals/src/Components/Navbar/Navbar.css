@@ -18,7 +18,7 @@
   font-weight: 500;
   font-size: 17px;
   text-decoration: none;
-  color: --color-primary-2;
+  color: rgb(56, 128, 245);
   cursor: pointer;
 }
 
@@ -33,7 +33,7 @@
   border-radius: none;
   border: none;
   padding: 10.5px 22px;
-  background-color: --color-primary-2;
+  background-color:  rgb(253, 246, 231);
   margin: auto;
   font-weight: 500;
 }
@@ -41,9 +41,9 @@
 .menu-options .searchButton {
   position: relative;
   left: 24.5%;
-  background-color: --color-primary;
-  color: #fff;
+  color: rgb(253, 246, 231);
   border: none;
+  background-color: rgb(25, 89, 193);
   border-radius: none;
   padding: 10px 5px;
   margin-left: -40px;
@@ -60,8 +60,8 @@ button {
   border-radius: none;
   border: none;
   padding: 12px 24px;
-  color: --color-primary-2;
-  background-color: --color-primary;
+  color: rgb(253, 246, 231);
+  background-color: rgb(25, 89, 193);
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
