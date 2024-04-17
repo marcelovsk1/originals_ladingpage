@@ -1,0 +1,82 @@
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-options a {
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+  color: --color-primary-2;
+  cursor: pointer;
+}
+
+.menu-options a:hover {
+  color: $color-primary;
+  transition: all 600ms;
+}
+
+.menu-options .searchBar {
+  position: relative;
+  left: 25%;
+  border-radius: none;
+  border: none;
+  padding: 10.5px 22px;
+  background-color: --color-primary-2;
+  margin: auto;
+  font-weight: 500;
+}
+
+.menu-options .searchButton {
+  position: relative;
+  left: 24.5%;
+  background-color: --color-primary;
+  color: #fff;
+  border: none;
+  border-radius: none;
+  padding: 10px 5px;
+  margin-left: -40px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.menu-options .lupe {
+  height: 40%;
+  width: 40%;
+}
+
+button {
+  border-radius: none;
+  border: none;
+  padding: 12px 24px;
+  color: --color-primary-2;
+  background-color: --color-primary;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  @include hover-styles;
+}
+
+.logo-pic {
+  width: 5%;
+  cursor: pointer;
+}
+
+.logo-pic:hover {
+  width: 6%; /* Ajuste a largura conforme necessário */
+  transition: width 0.6s ease; /* Adicione um efeito de transição suave */
+}
