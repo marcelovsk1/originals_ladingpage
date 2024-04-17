@@ -80,7 +80,7 @@ p {
   width: 100%;
   height: 100%;
   /* background-color: rgb(160, 174, 200); */
-  background-color: $color-primary-2;
+  background-color: rgb(253, 246, 231);
   padding: 70px; /* Adicione o padding conforme necessário para espaçamento */
 }
 
@@ -92,7 +92,7 @@ p {
 
 .title-shoes h1 {
   font-size: 28px;
-  color: $color-primary-3;
+  color: black;
 }
 
 .shoes {
